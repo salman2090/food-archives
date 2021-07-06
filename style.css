@@ -2,13 +2,40 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    background-image: linear-gradient(red,orange);
+    
+
+}
+.style-l{
+    width: 100%;
+    text-decoration:none;
+    color:whitesmoke;
+    padding: 10px 50px;
+    border: 1px solid lightgrey;
+   
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.style-l:hover{
+    background-color: lightseagreen;
+
+}
 h1{
     font-size: 50px;
     color:rgb(68, 52, 52);
     margin-top: 20%;
 }
 h2{
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 35px;
     padding-top: 15px;
 }
@@ -39,7 +66,7 @@ h2{
 .bg-img{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size:cover;
     
 }
 div p{
@@ -51,14 +78,16 @@ div p{
     padding-left: 20%;
     padding-top: 10%;
 }
-#recipes{
+#recipies{
     text-align: center;
+    color: rgb(87, 78, 78);
     margin-bottom: 70px;
 }
 .dish-item{
-    width: 100%; 
-    margin-left:5%;
-    margin-right:5%;
+    
+    width: 40%; 
+    margin:0px 15px;
+    justify-content: center;
     padding: 20px;
     border-radius: 30px;
     box-shadow: 10px 10px 40px gray;
@@ -67,6 +96,25 @@ div p{
 .dish-item img{
     width: 100%;
 }
+#flex{
+    padding: 0px 50px;
+}
+.checked {
+    color: orange;
+  }
+  .rating{
+      text-align: center;
+  }
+  .rating-container{
+      display: flex;
+      text-align: center;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 15px;
+      margin:0px 20px;
+  }
 .footer-set{
     text-align: center;
     background-color:rgb(24, 22, 22);
@@ -74,7 +122,7 @@ div p{
 }
 footer p{
     color: rgb(197, 172, 135);
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .first-name{
     color: coral;
